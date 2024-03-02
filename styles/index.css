@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(rgb(37, 0, 70), rgb(148, 0, 156));
+}
+.conteiner{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 70vw;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+}
+.conteiner .material-symbols-outlined{
+    width: 24px;
+    height: 24px;
+    font-size: 23px;
+    color: whitesmoke;
+}
+.conteiner .user{
+    width: 55vw;
+    height: 4vh;
+    display: flex;
+
+}
+.conteiner .password{
+    width: 55vw;
+    height: 5vh;
+    display: flex;
+
+}
+.conteiner input{
+    width: 45vw;
+    height: 3vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    color: whitesmoke;
+    font-family: 'Raleway',sans-serif;
+    font-size: 17px;
+}
+.conteiner h1{
+    font-family: 'Raleway',sans-serif;
+    color: whitesmoke;
+}
+.conteiner #button{
+    width: 45vw;
+    height: 5vh;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-family: 'Raleway',sans-serif;
+    font-size: 120%;
+    color: whitesmoke;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.427);
+    outline: none;
+}
+
+.conteiner #button:active{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.216), rgba(255, 255, 255, 0.089));
+}
+
+@media (min-width: 1024px){
+    .conteiner{
+        width: 40vw;
+        display: grid;
+        place-items: center;
+    }
+    .conteiner .user{
+        width: 35vw;
+    }
+    .conteiner .password{
+        width: 35vw;
+    }
+    .conteiner #button{
+        width: 25vw;
+    }
+}
+@media (min-height: 825px){
+    .conteiner{
+        height: ;
+
+    }
+    .conteiner .user{
+        height: 5vh;
+    }
+    .conteiner .password{
+        height: 6vh;
+    }
+    .conteiner #button{
+        height: 6vh;
+        font-size: 125%;
+    }
+}
