@@ -22,8 +22,9 @@ body{
 .conteiner .material-symbols-outlined{
     width: 24px;
     height: 24px;
-    font-size: 23px;
+    font-size: 31px;
     color: whitesmoke;
+    margin-right: 13px;
 }
 .conteiner .user{
     width: 55vw;
@@ -38,8 +39,8 @@ body{
 
 }
 .conteiner input{
-    width: 45vw;
-    height: 3vh;
+    width: 40vw;
+    height: 2vh;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid whitesmoke;
@@ -78,28 +79,12 @@ body{
         place-items: center;
     }
     .conteiner .user{
-        width: 35vw;
+        width: 30vw;
     }
     .conteiner .password{
-        width: 35vw;
+        width: 30vw;
     }
     .conteiner #button{
         width: 25vw;
-    }
-}
-@media (min-height: 825px){
-    .conteiner{
-        height: ;
-
-    }
-    .conteiner .user{
-        height: 5vh;
-    }
-    .conteiner .password{
-        height: 6vh;
-    }
-    .conteiner #button{
-        height: 6vh;
-        font-size: 125%;
     }
 }
