@@ -3,7 +3,7 @@ button.addEventListener("click", (event) => {
     var login = document.getElementById("logar").value;
     var senha = document.getElementById("senha").value;
 
-    if (login == "admin" && senha == "senha123 ") {
+    if (login == "admin" && senha == "senha123") {
       alert("Sucesso");
       window.location.href = "pages/page1.html";
     } else if(login == "" || senha == ""){
